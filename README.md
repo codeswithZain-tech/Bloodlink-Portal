@@ -1,4 +1,4 @@
-# BloodLink Portal
+# BloodLink Portal (React + Bootstrap)
 
 A digital platform connecting blood donors with hospitals and patients in need.
 
