@@ -52,7 +52,7 @@ npm run build
 ## Project Structure
 
 ```
-BloodSource Gateway/
+BloodSource-Gateway/
 ├── public/
 │   └── blood-drop.svg
 ├── src/
