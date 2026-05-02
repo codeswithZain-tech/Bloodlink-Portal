@@ -27,7 +27,7 @@ const TopNavbar = ({ toggleSidebar, onLogout }) => {
         >
           <FaBars />
         </button>
-        <span className="navbar-brand d-none d-md-block">BloodLink Portal</span>
+        <span className="navbar-brand d-none d-md-block">PlasmaBridge Gateway</span>
       </div>
 
       <div className="d-flex align-items-center gap-3">
@@ -104,7 +104,7 @@ const TopNavbar = ({ toggleSidebar, onLogout }) => {
                     <FaUser size={20} />
                   </div>
                   <h6 className="mb-0">Admin User</h6>
-                  <small className="text-muted">admin@bloodlink.com</small>
+                  <small className="text-muted">admin@plasmabridge.com</small>
                 </div>
                 <button className="btn w-100 text-start p-3 d-flex align-items-center gap-2 text-danger" onClick={onLogout}>
                   <FaSignOutAlt /> Logout

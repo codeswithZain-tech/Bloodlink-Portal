@@ -26,7 +26,7 @@ const features = [
 ];
 
 const steps = [
-  { number: '01', title: 'Register', description: 'Sign up as a donor on BloodLink' },
+  { number: '01', title: 'Register', description: 'Sign up as a donor on PlasmaBridge Gateway' },
   { number: '02', title: 'Verify', description: 'Verify your information and health status' },
   { number: '03', title: 'Donate', description: 'Donate blood at nearby hospital' },
   { number: '04', title: 'Save Lives', description: 'Your blood saves lives!' }
@@ -50,7 +50,7 @@ const HomePage = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              Welcome to BloodLink
+              Welcome to PlasmaBridge Gateway
             </motion.h1>
             <motion.p 
               className="lead mb-4 opacity-75"
@@ -74,7 +74,7 @@ const HomePage = () => {
               animate={{ scale: [1, 1.05, 1] }}
               transition={{ duration: 3, repeat: Infinity }}
             >
-              <img src="/blood-drop.svg" alt="BloodLink" style={{ width: 150, opacity: 0.3 }} />
+              <img src="/blood-drop.svg" alt="PlasmaBridge Gateway" style={{ width: 150, opacity: 0.3 }} />
             </motion.div>
           </div>
         </div>
@@ -82,7 +82,7 @@ const HomePage = () => {
 
       {/* Features Section */}
       <div className="mb-5">
-        <h2 className="text-center mb-4">Why Choose BloodLink?</h2>
+        <h2 className="text-center mb-4">Why Choose PlasmaBridge Gateway?</h2>
         <div className="row g-4">
           {features.map((feature, index) => (
             <motion.div 

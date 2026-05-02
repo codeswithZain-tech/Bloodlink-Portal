@@ -20,7 +20,7 @@ const AboutPage = () => {
 return (
 <motion.div className="page-container" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
 <div className="hero-section mb-5 text-center">
-<motion.h1 className="display-4 fw-bold mb-3" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>About BloodLink</motion.h1>
+<motion.h1 className="display-4 fw-bold mb-3" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>About PlasmaBridge Gateway</motion.h1>
 <motion.p className="lead opacity-75" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.3 }}>Connecting Donors with Life</motion.p>
 </div>
 
@@ -42,7 +42,7 @@ return (
 <div className="row align-items-center">
 <div className="col-lg-6 mb-4 mb-lg-0">
 <h2 className="mb-3">Who We Are</h2>
-<p className="text-muted">We are a dedicated team of students and volunteers who designed BloodLink to make the process of donating and receiving blood easier, safer, and faster.</p>
+<p className="text-muted">We are a dedicated team of students and volunteers who designed PlasmaBridge Gateway to make the process of donating and receiving plasma easier, safer, and faster.</p>
 <p className="text-muted">Every feature in our system focuses on saving valuable time during emergencies.</p>
 <div className="mt-4">
 <div className="d-flex align-items-center gap-3 mb-3">
@@ -65,7 +65,7 @@ return (
 </div>
 <div className="col-lg-6 text-center">
 <div className="bg-danger bg-opacity-10 rounded-3 p-5">
-<img src="/blood-drop.svg" alt="BloodLink" style={{ width: 120, opacity: 0.5 }} />
+<img src="/blood-drop.svg" alt="PlasmaBridge Gateway" style={{ width: 120, opacity: 0.5 }} />
 </div>
 </div>
 </div>

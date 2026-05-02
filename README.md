@@ -1,6 +1,6 @@
-# BloodSource Gateway (React + Bootstrap)
+# PlasmaBridge Gateway
 
-A digital platform connecting blood donors with hospitals and patients in need.
+A digital platform connecting plasma donors with hospitals and patients in need.
 
 ## Features
 
@@ -46,13 +46,13 @@ npm run build
 
 ## Login Credentials
 
-- **Email**: admin@bloodlink.com
+- **Email**: admin@plasmabridge.com
 - **Password**: admin123
 
 ## Project Structure
 
 ```
-BloodSource-Gateway/
+plasma-bridge-gateway/
 ├── public/
 │   └── blood-drop.svg
 ├── src/

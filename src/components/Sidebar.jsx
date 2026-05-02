@@ -40,7 +40,7 @@ const Sidebar = ({ collapsed, onLogout }) => {
         >
           <img 
             src="/blood-drop.svg" 
-            alt="BloodLink" 
+            alt="PlasmaBridge Gateway" 
             className="sidebar-logo"
             style={{ width: collapsed ? 40 : 60 }}
           />
@@ -51,8 +51,8 @@ const Sidebar = ({ collapsed, onLogout }) => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <h4 className="sidebar-brand">BloodLink</h4>
-            <small className="text-white-50">Donate Blood, Save Lives</small>
+            <h4 className="sidebar-brand">PlasmaBridge</h4>
+            <small className="text-white-50">Donate Plasma, Save Lives</small>
           </motion.div>
         )}
       </div>
@@ -89,7 +89,7 @@ const Sidebar = ({ collapsed, onLogout }) => {
 
       {!collapsed && (
         <div className="sidebar-footer text-center p-3 mt-auto">
-          <small className="text-white-50">© 2025 BloodLink</small>
+          <small className="text-white-50">© 2025 PlasmaBridge</small>
         </div>
       )}
     </motion.aside>

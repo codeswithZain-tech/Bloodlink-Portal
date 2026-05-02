@@ -11,7 +11,7 @@ const LoginPage = ({ onLogin }) => {
 
   // Demo credentials
   const validCredentials = {
-    email: 'admin@bloodlink.com',
+    email: 'admin@plasmabridge.com',
     password: 'admin123'
   };
 
@@ -42,7 +42,7 @@ const LoginPage = ({ onLogin }) => {
             </div>
           </motion.div>
           <h2 className="fw-bold mb-1">Welcome Back!</h2>
-          <p className="text-muted">Login to BloodLink Portal</p>
+          <p className="text-muted">Login to PlasmaBridge Gateway</p>
         </div>
 
         <form onSubmit={handleSubmit}>

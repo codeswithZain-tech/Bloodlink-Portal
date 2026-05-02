@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaPaperPlane } from 'react-icons/fa';
 
 const branches = [
-{ city: 'Lahore', address: 'Liberty Market, Gulberg', phone: '0321-1112233', email: 'lahore@bloodlink.com' },
-{ city: 'Karachi', address: 'Clifton Block 5', phone: '0333-4445566', email: 'karachi@bloodlink.com' },
-{ city: 'Islamabad', address: 'Blue Area Center', phone: '0312-5556677', email: 'islamabad@bloodlink.com' }
+{ city: 'Lahore', address: 'Liberty Market, Gulberg', phone: '0321-1112233', email: 'lahore@plasmabridge.com' },
+{ city: 'Karachi', address: 'Clifton Block 5', phone: '0333-4445566', email: 'karachi@plasmabridge.com' },
+{ city: 'Islamabad', address: 'Blue Area Center', phone: '0312-5556677', email: 'islamabad@plasmabridge.com' }
 ];
 
 const ContactPage = () => {
@@ -21,7 +21,7 @@ setTimeout(() => setSubmitted(false), 3000);
 return (
 <motion.div className="page-container" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
 <div className="hero-section mb-5 text-center">
-<motion.h1 className="display-4 fw-bold mb-3" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>Contact BloodLink</motion.h1>
+<motion.h1 className="display-4 fw-bold mb-3" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>Contact PlasmaBridge Gateway</motion.h1>
 <motion.p className="lead opacity-75" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.3 }}>We are Here to Help You 24/7</motion.p>
 </div>
 
@@ -95,7 +95,7 @@ return (
 <FaPhone size={32} />
 </div>
 <h5>Emergency Hotline</h5>
-<p className="text-muted mb-0">0800-BLOODLINK</p>
+<p className="text-muted mb-0">0800-PLASMABRIDGE</p>
 <small className="text-muted">Available 24/7</small>
 </motion.div>
 </div>
