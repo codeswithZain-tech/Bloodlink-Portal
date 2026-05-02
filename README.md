@@ -1,4 +1,4 @@
-# BloodLink Portal (React + Bootstrap)
+# BloodSource Gateway (React + Bootstrap)
 
 A digital platform connecting blood donors with hospitals and patients in need.
 
@@ -52,7 +52,7 @@ npm run build
 ## Project Structure
 
 ```
-bloodlink-portal/
+BloodSource Gateway/
 ├── public/
 │   └── blood-drop.svg
 ├── src/
